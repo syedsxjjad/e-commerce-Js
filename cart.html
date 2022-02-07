@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body style="background-image: url(image/ip.png);">
+    <header class="header">
+        <a href="#" class="logo">Logo</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="about.html">About</a></li>
+           <!-- <li><a href="product.html">Services</a></li>
+            <li><a href="product.html">Contact</a></li> -->
+            <div class="shopping-bag">
+                <a href="cart.html">
+                    <img src="./icons/bag.png" alt="cart">
+                    Cart
+                    <div class="total-items-in-cart">
+                        0
+                    </div>
+                </a>
+            </div>
+            <!-- <a href="cart.html">
+            <i class="fa fa-cart-plus"></i> -->
+        </a>
+        </ul>
+    </header>
+    <div class="cart2">
+    <div class="cart1">
+        <div class="cart-header">
+            <div class="column1">Item</div>
+            <div class="column1">Unit price</div>
+            <div class="column1">Units</div>
+        </div>
+        
+        <div class="cart-items">
+               <!-- render cart items here -->
+
+        </div>
+        <div class="cart-footer">
+            <div class="subtotal">
+                
+            </div>
+            <div class="checkout">
+                Proceed to checkout
+            </div>
+        </div>
+    </div>
+    <script src="./products.js"></script>
+    <!-- <script src="./app.js"></script> -->
+    <script src="./cart.js"></script>
+</body>
+</html>
